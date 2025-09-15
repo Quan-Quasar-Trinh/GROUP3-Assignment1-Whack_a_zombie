@@ -52,7 +52,6 @@ A simple game where you must whack zombies before they disappear! The faster and
 ## 📂 Project Structure
 
 ```
-Group3/
 ├── assets/
 │   ├── img/
 │   │   ├── grass.png
