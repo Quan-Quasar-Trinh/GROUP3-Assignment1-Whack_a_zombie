@@ -8,7 +8,7 @@ import os   # to check if image exists
 pygame.init()
 pygame.mixer.init()
 
-pygame.mixer.music.load("background-music.ogg")
+pygame.mixer.music.load("assets/sound/background-music.ogg")
 pygame.mixer.music.set_volume(0.5)
 pygame.mixer.music.play(-1)  # Loop indefinitely
 is_muted = False
@@ -27,14 +27,14 @@ pygame.display.set_caption("Whack-a-Mole")
 font = pygame.font.SysFont("comicsans", 30)
 
 mole_image = None
-image_path = "zombie.png"
+image_path = "assets/img/zombie.png"
 if os.path.exists(image_path):
     mole_image = pygame.image.load(image_path)
     mole_image = pygame.transform.scale(mole_image, (RADIUS * 2 - 10, RADIUS * 2 - 10))
     
 # Load sound effect
 sound_effect = None
-sound_path = "whack-mole.flac"
+sound_path = "assets/sound/whack-mole.flac"
 if os.path.exists(sound_path):
     try:
         sound_effect = pygame.mixer.Sound(sound_path)
@@ -100,7 +100,7 @@ clicked = 0
 reset_mole()
 game_time = 60
 start_ticks = pygame.time.get_ticks()
-background = pygame.image.load("grass.png")
+background = pygame.image.load("assets/img/grass.png")
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
 
