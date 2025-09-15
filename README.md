@@ -36,14 +36,14 @@ A simple arcade-style game where you must whack zombies before they disappear! T
 ## 🚀 How to Run
 
 1. Make sure you have **Python 3.10+** installed.
-2. Install dependencies (if using Pygame):
+2. Install dependencies :
 
-   ```bash
+   ```
    pip install pygame
    ```
 3. Run the game:
 
-   ```bash
+   ```
    python whack_a_mole.py
    ```
 
