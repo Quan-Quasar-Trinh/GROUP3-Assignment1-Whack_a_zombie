@@ -1,6 +1,6 @@
 # GROUP3-Assignment1-Whack_a_zombie
 
-A simple arcade-style game where you must whack zombies before they disappear! The faster and more accurate you are, the higher your score.
+A simple game where you must whack zombies before they disappear! The faster and more accurate you are, the higher your score.
 ---
 
 ## 📌 Features
